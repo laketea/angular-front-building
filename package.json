@@ -1,0 +1,27 @@
+{
+  "name": "angularjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.testbird.io:zhangwei/angularjs-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-angular-file-loader": "^1.1.5",
+    "grunt-angular-templates": "^0.5.7",
+    "grunt-angular-translate": "^0.3.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-http-server": "^1.4.0",
+    "grunt-ng-annotate": "^1.0.1",
+    "grunt-replace": "^0.9.2",
+    "grunt-useref": "0.0.16",
+    "grunt-wiredep": "^2.0.0"
+  }
+}

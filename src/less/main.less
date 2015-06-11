@@ -1,0 +1,63 @@
+@import 'variables.less';
+@import '../app/home/home.less';
+
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+  -moz-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+    font-size: 12px;
+    color:#333;
+}
+
+.header {
+    background-color: #333;
+    height: 50px;
+    .box-shadow(inset 0 1px 2px rgba(0,0,0,.025));
+    ul {
+        width: 750px;
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+        li {
+            float: left;
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                line-height: 50px;
+                font-size: 14px;
+                width: 100px;
+                display: inline-block;
+            }
+            &:hover {
+                background-color: #e2e2e2;
+                a {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+.main{
+	width: 750px;
+	margin: 0 auto;
+	margin-top:20px; 
+	border-radius: 5px;
+	min-height: 200px;
+}
